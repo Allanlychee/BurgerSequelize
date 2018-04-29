@@ -15,21 +15,40 @@
     <div class="container">
         <h1 class="text-center" style="color:red;">Eat-Da-Burger!</h1>
         <div class="row">
+            <div class="col-md-12 message">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-5 col-md-offset-1 text-center">
+                <h3>Burger Menu</h3>
+            </div>
+            <div class="col-md-5 text-center">
+                <h3>Eaten Burgers</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-5 col-md-offset-1 burger-container">
+            </div>
+            <div class="col-md-5 col-md-offset 1 devoured-container">
+            </div>
+        </div>
+        <div class="row">
             <div class="col-md-6 col-md-offset-3">
                 <form id="burgers">
                     <div class="form-group">
                         <textarea class="form-control" rows="1" id="body"></textarea>
-                        <br />
-                        <button type="submit" class="btn btn-success submit">Submit</button>
                     </div>
+                    <button type="submit" class="btn btn-success submit">Submit</button>
                 </form>
                 <h5 class="text-center">Enter a burger you want to eat, then click the "Submit" button</h5>
             </div>
         </div>
+        <div class="row">
+            <div class="col-md-12 deleted-container" style="display:none;">
+            </div>
+        </div>
+        <img class='burger-image' src="./images/burger-image.jpg">
     </div>
-
-
-
 
     <script src="https://code.jquery.com/jquery.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
